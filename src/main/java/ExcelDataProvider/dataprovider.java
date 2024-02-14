@@ -14,8 +14,7 @@ import org.testng.annotations.Test;
 
 public class dataprovider {
 	
-	 //multiple sets of data to our tests
-	 // and store in the aarray
+
 	DataFormatter formatter = new DataFormatter();
 	@Test(dataProvider="driveTest")
 	public void testCaseData(String userid,String password,String id)
